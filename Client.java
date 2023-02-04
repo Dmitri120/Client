@@ -3,7 +3,7 @@ import java.net.Socket;
 
 public class Client {
     public static void main(String[] args) {
-        try(Socket socket= new Socket("1.0.4.112",8000);
+        try(Socket socket= new Socket("127.0.0.1",8000);
         BufferedWriter writer =
                 new BufferedWriter(
                     new OutputStreamWriter(
